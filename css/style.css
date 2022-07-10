@@ -1,7 +1,7 @@
 
 form{
     text-align: center;
-    margin: 5% 30% 0 30%;
+    margin: 5% 30% 5% 30%;
     background-color: #E7EAED;
     padding: 3% 0;
 }
@@ -30,4 +30,15 @@ span{
     color: white;
     font-weight: 700;
     font-size: 15px;
+}
+.login{
+    width: 60%;
+}
+.submit{
+    width: 60%;
+    height: 35px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(26, 26, 214);
+    color: white;
 }
