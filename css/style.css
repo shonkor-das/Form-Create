@@ -11,20 +11,14 @@ input{
     padding-bottom: 5px;
     border-radius: 7px;
 }
-.name{
+.box{
     margin: 0 2%;
-}
-#gmail{
-    width: 73%;
-}
-.password{
-    width: 73%;
 }
 #checkbox{
     width: 17px;
     height: 13px;
     margin: 13px 0;
-    margin-left: -115px;
+    margin-left: -3px;
 }
 span{
     color: rgb(12, 170, 12);
