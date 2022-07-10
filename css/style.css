@@ -1,0 +1,39 @@
+
+form{
+    text-align: center;
+    margin: 5% 30% 0 30%;
+    background-color: #E7EAED;
+    padding: 3% 0;
+}
+input{
+    width: 180px;
+    height: 25px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+}
+.name{
+    margin: 0 2%;
+}
+#gmail{
+    width: 73%;
+}
+.password{
+    width: 73%;
+}
+#checkbox{
+    width: 17px;
+    height: 13px;
+    margin: 13px 0;
+    margin-left: -115px;
+}
+span{
+    color: rgb(12, 170, 12);
+}
+#submit{
+    width: 59%;
+    height: 35px;
+    background-color: rgb(21, 134, 21);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
