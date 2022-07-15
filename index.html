@@ -13,7 +13,7 @@
         <p>Create your account. It's free and only takes a minute</p>
         <input class="box" type="text" name="name" placeholder="First Name">
         <input class="box" type="text" name="name" placeholder="Last Name"><br><br>
-        <input class="box" type="user" type="user" name="user" placeholder="User Name">
+        <input class="box" type="text" name="user" placeholder="User Name">
         <input class="box" type="gmail" name="gmail" placeholder="Email" id=""><br><br>
         <input class="box" type="password" name="Password" placeholder="Password">
         <input class="box" type="password" name="Password" placeholder="Confrom Password"><br>
@@ -29,6 +29,43 @@
         <a href="#"><p>Forgot Password?</p></a>
         <input class="submit" type="submit" name="submit" value="Login">
         <a href="#"><p>Not a member?Signup</p></a>
+    </form>
+
+    <form action="" class="form">
+        <h1>Registration Form</h1>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter Last Name"><br><br>
+        <label for="gender" class="gender">Gender:</label>
+        <input type="radio" name="gender" value="on" id="gender">Male
+        <input type="radio" name="gender" value="on" id="gender">Female
+        <input type="radio" name="gender" value="on" id="gender">Other<br><br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date">
+        <label for="number">Phone Number:</label>
+        <input type="tel" name="tel" id="number"><br><br>
+        <label for="address"  class="adderss">Address:</label>
+        <input type="text" name="adderss" class="adderss">
+        <label for="country" id="country">Choose a country:</label>
+        <select name="dropdown" id="dropdown">
+            <option value="Bangldesh">Bangldesh</option>
+            <option value="USA">USA</option>
+            <option value="UK">Uk</option>
+            <option value="Japan">Japan</option>
+        </select><br><br>
+        
+        <label for="text" class="user">User Name:</label>
+        <input type="text" name="user" id="user" placeholder="Enter user name">
+        <label for="gmail">E-mail:</label>
+        <input type="gmail" name="gmail" id="gmail" placeholder="Enter Email"><br><br>
+        <label for="password" class="password">Password:</label>
+        <input type="password" name="password" class="password" placeholder="Enter Password">
+        <label for="password" class="password">Confrom Password:</label>
+        <input type="password" name="password" class="password" placeholder="Confrom Password"><br><br>
+        <input type="file" name="fileupload"><br><br>
+        <input class="submit" type="submit" name="submit" value="Submit">
+        <input class="submit" type="reset" name="reset" value="Reset">
     </form>
 </body>
 </html>

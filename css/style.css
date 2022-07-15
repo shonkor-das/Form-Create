@@ -42,3 +42,39 @@ span{
     background-color: rgb(26, 26, 214);
     color: white;
 }
+
+
+.form{
+    margin: 5% 22%;
+}
+.form input{
+    width: 185px;
+    height: 23px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    padding-left: 15px;
+    margin-right: 35px;
+}
+label{
+    font-weight: 700;
+    margin-left: 10px;
+}
+label.gender{
+    margin-left: -43%;
+}
+#gender{
+    margin: 0 -80px 0 -50px;
+    height: 15px;
+}
+input #gender{
+    margin: 0 -74px 0px -74px
+}
+#date{
+    width: 19%;
+}
+label.adderss{
+    margin-left: -121px;
+}
+label.user{
+    margin-left: -9px;
+}
